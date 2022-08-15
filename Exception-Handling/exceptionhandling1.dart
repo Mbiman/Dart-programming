@@ -4,7 +4,6 @@
  * 2. Catch clause with Exception Object
  * 3. Catch clause with Exception Object and StackTrace Object
  * 4. Finally clause
- * 5. Create our own custom exception
  */
 
 void main(List<String> args) {
@@ -48,4 +47,5 @@ void main(List<String> args) {
   } finally {
     print("This FINALLY clause is always executed!.");
   }
+  
 }
