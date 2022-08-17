@@ -8,7 +8,7 @@
 void main(List<String> args) {
   var student = Student();
   student.name = "Peter"; //calling default setter to set the value
-  print(student.name); //calling default Gettr to get value
+  print(student.name); //calling default Getter to get value
 
   student.percentage = 439; //calling custom setter to set value
 
