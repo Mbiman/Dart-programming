@@ -3,6 +3,7 @@
 
 void main(List<String> args) {
   // Index:     0   1   2   3   4
+
   List<int> numbersList = []; // Growable length List
 
   numbersList.add(2);
@@ -10,6 +11,9 @@ void main(List<String> args) {
   numbersList.add(6);
   numbersList.add(8);
   numbersList.add(10);
+
+  numbersList.insert(5, 12);
+  numbersList.insert(0, 1);
 
   print("${numbersList[2]}\n");
 
